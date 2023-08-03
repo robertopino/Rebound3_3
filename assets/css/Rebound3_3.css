@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.selectorActividades {
+    text-align: center;
+    margin-bottom: max(1rem, 5vh);
+}
+
+.container .card1 {
+    width: 100%;
+    margin: 20px;
+    display: block;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.container .card2 {
+    width: 100%;
+    margin: 20px;
+    display: block;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.container .card3 {
+    width: 100%;
+    margin: 20px;
+    display: block;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.container .card1:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.container .card2:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.container .card3:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card-body{
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.btn{
+    display: inline-center;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.card-img-top{
+    border-radius: 6px;
+}
+
+.card1 {
+    position: relative;
+}
+figcaption {
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 15px;
+    color: grey;
+}
+
+.figcaption:hover .mostrar {
+    display: block;
+}
+
+
+@media screen and (max-width: 600px){
+    .container .card2{
+        display: none;
+    }
+
+    .container .card3{
+        display: none;
+    }
+}
